@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Recherche meteo</h1>
+    <div id="searchsection">
+        <form>
+            <input id="inputcity" type="text" required placeholder="Entrer le nom de la ville">
+            <button type="submit">Search</button>
+    </form>
+    </div>
+    <section id="resultsection">
+        <div id="feature1" class="feature">
+            <div class="titlefeature">
+                <h3>Temperature</h3>
+            </div>
+            <p id="feature1value">Data from api</p>
+        </div>
+
+        <div id="feature2" class="feature">
+            <div class="titlefeature">
+                <h3>Description</h3>
+            </div>
+            
+            <p id="feature2value">Data from api</p>
+        </div>
+
+        <div id="feature3" class="feature">
+            <div class="titlefeature">
+                <h3>wind</h3>
+            </div>
+            
+            <p id="feature3value">Data from api</p>
+        </div>
+
+        <div id="feature4" class="feature">
+            <div class="titlefeature">
+                <h3>Humidity</h3>
+            </div>
+            
+            <p id="feature4value">Data from api</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

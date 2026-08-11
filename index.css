@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin:20px auto;
+    color:rgb(13, 141, 98);
+    text-align: center;
+}
+#searchsection{
+    margin:30px auto;
+    padding:12px 30px;
+    display:flex;
+    justify-content: space-evenly;
+    width:40vw;
+    box-shadow: 0px 13px 15px lightgrey;
+    border: 4px solid transparent;
+    border-radius: 16px;
+}
+form input{
+    height:30px;
+    width:300px;
+    outline: none;
+    border:2px solid lightgray;
+    padding:8px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+form button{
+    height:30px;
+    width:100px;
+    padding:5px 8px;
+    background-color: aqua;
+    font-weight: bolder;
+    outline: none;
+    border-radius: 30px;
+    border:2px solid transparent;
+}
+#resultsection{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+    margin:30px auto;
+    border-top: 4px solid black;
+    justify-content: center;
+}
+.feature{
+    height:300px;
+    width:150px;
+    border:3px solid lightgrey;
+    border-radius: 16px ;
+    border-top-left-radius: 35%;
+}
+.titlefeature{
+    height: 30%;
+    background-color: #1a1a2e;
+    color:whitesmoke;
+    padding:20px 10px;
+    border-radius: 50% 0 50% 0;
+}
+
+.feature p{
+    height:70%;
+    padding:8px 10px ;
+    text-align: center;
+    margin-top:30px;
+    font-size: 18px;
+    color:#4040a3;
+    font-weight: bold;
+}
