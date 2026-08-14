@@ -1,0 +1,29 @@
+<!-- Vous tapez le nom d'un film (ex: "Inception") dans un champ de recherche,
+  et l'API vous renvoie l'affiche du film, 
+  l'année de sortie et le résumé. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Movie</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <h1>Recherche un Film</h1>
+    <div id="searchsection">
+        <form>
+            <input id="inputcity" type="text" required placeholder="Spiderman Brand New City">
+            <button type="submit">Search</button>
+    </form>
+    </div>
+    <section id="outputSection">
+        <div id="imgscreen"></div>
+        <div id="infoscreen">
+            <div id="year"></div>
+            <div id="resume"></div>
+        </div>
+    </section>
+    <script src="movie.js"></script>
+</body>
+</html>
