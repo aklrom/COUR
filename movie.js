@@ -33,7 +33,7 @@ form.addEventListener("submit", async (e) => {
         ? `<img src="${data.Poster}" alt="${data.Title}" class="image"/>`
         : `<p>Aucune image disponible</p>`;
 
-    year.innerHTML = `<p><strong>Année :</strong> ${data.Year}</p>`;
+    year.innerHTML = `<p><strong> ${data.Title}  </strong> ${data.Year}</p>`;
     resume.innerHTML = `<p><strong>Résumé :</strong> ${data.Plot}</p>
         
         <p><strong>Genre :</strong>${data.Genre}</p>`;
